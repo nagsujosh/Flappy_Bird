@@ -67,13 +67,6 @@ class Game:
         self.top_obstacle_rect.x = self.obstacle_start_pos
         self.bot_obstacle_rect.x = self.obstacle_start_pos
 
-    def text(self):
-        self.font = pygame.font.Font(None, 36)
-        self.text = self.font.render("Flappy Bird", 1, (10, 10, 10))
-        self.textpos = self.text.get_rect()
-        self.textpos.centerx = self.background.get_rect().centerx
-        self.background.blit(self.text, self.textpos)
-
     def player(self):
         self.bird = pygame.image.load("dove.png")
         self.bird = pygame.transform.flip(self.bird, True, False)
@@ -138,10 +131,9 @@ def main():
     game_one.initialise()
     game_one._background()
     game_one.obstacle()
-    game_one.text()
     game_one.player()
     should_blit.blitting()
 
 
 if __name__ == '__main__':
-    main()
+    main()    
