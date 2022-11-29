@@ -6,4 +6,4 @@ Used Object Oriented Programming for creating this game using <strong> PyGame </
 Other libraries used: <strong>random, time </strong>.
 
 
-It is a <strong>2D Game</strong> with Visual and Audio elements.
+It is a <strong>2D Game</strong> with Visual and Audio elements. It has been designed for single player.
