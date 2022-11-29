@@ -1,6 +1,6 @@
 <h1> Flappy Bird Game </h1>
 
-Used Object Oriented Programming for creating this game using <strong> PyGame </strong> Library in <strong> Python</strong>.
+Used <strong> Object Oriented Programming </strong> for creating this game using <strong> PyGame </strong> Library in <strong> Python</strong>.
 
 
 Other libraries used: <strong>random, time </strong>.
